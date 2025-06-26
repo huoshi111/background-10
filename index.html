@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L.RED 明网 展示版</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Microsoft YaHei", sans-serif;
+      line-height: 1.6;
+      color: #989898;
+      background-color: #141414;
+    }
+
+    header {
+      background-color: #202020;
+      color: rgb(196, 29, 29);
+      text-shadow: 0 0 6px;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    .btn {
+      background-color: black;
+      color: rgba(185, 7, 7, 0.752);
+      border-radius: 10px;
+      width: 160px;
+      height: 40px;
+      border: solid;
+    }
+
+    .btn:hover {
+      background-color: black;
+      color: #ca2222;
+      box-shadow: 0 0 10px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 2rem auto;
+    }
+
+    .card {
+      background-color: #212121;
+      border: 1px solid #b10a0ac4;
+      border-radius: 4px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #2a2a2a98;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #c60707;
+    }
+
+
+    .lred-audio-player {
+      background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+      padding: 20px;
+      width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px #00ff9f44;
+      color: #00ff9f;
+      border: 1px solid #00ff9f33;
+    }
+
+    .lred-audio-controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .lred-audio-play-btn {
+      background: #00ff9f;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      color: #0a0a0a;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: bold;
+      box-shadow: 0 0 10px #00ff9f88;
+      transition: background 0.3s;
+    }
+
+    .lred-audio-play-btn:hover {
+      background: #00cc88;
+    }
+
+    .lred-audio-seek-bar {
+      width: 100%;
+      margin-top: 15px;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      cursor: pointer;
+      appearance: none;
+      height: 6px;
+      background: #00ff9f33;
+      border-radius: 3px;
+      outline: none;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      appearance: none;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #00ff9f;
+      box-shadow: 0 0 5px #00ff9f;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>L.RED | 暗DARK </h1>
+    <br>
+    <p> 明网 展示版</p>
+    <p>** 您正在访问的只是 LRED 暗网入口的 明网 展示版，为了让访问者了解入口是什么样子可以在普通常用的浏览器上访问该站点。** </p>
+  </header>
+
+  <center>
+    <p>无需比特币 / No need Bitcoin</p>
+    <br>
+    <img src="http://jpytg6s7dfldx24fhermacujqae65ar47ia3yn447tlu7m4f2kkh2xqd.onion/bitcoinimg.jpg"
+      alt="onion url not found ERROR" style=" max-height:80px; border: none; background-color: #1c1c1c;">
+  </center>
+  <div class="container">
+    <div class="card">
+      <h2>1. </h2>
+      <p>欢迎访问 L.RED </p>
+    </div>
+    <div class="card">
+      <h2>2. </h2>
+      <p>开始访问 L.Red </p>
+    </div>
+  </div>
+  <center>
+    <a href="http://jpytg6s7dfldx24fhermacujqae65ar47ia3yn447tlu7m4f2kkh2xqd.onion/lredai/L.RedAI 网页.html"
+      style="text-decoration: none;">
+      <button class="btn">进入 L.Red</button>
+    </a>
+
+    <a href="http://jpytg6s7dfldx24fhermacujqae65ar47ia3yn447tlu7m4f2kkh2xqd.onion/LRedStation/LRedStation.html"
+      style="text-decoration: none;">
+      <button class="btn"> LRED STATION</button>
+    </a>
+
+    <a href="http://jpytg6s7dfldx24fhermacujqae65ar47ia3yn447tlu7m4f2kkh2xqd.onion/lredai/private_chat/index.php"
+      style="text-decoration: none;">
+      <button class="btn"> LRED PRIVATE 私信</button>
+    </a>
+
+    <br><br><br>
+
+    <a href="http://jpytg6s7dfldx24fhermacujqae65ar47ia3yn447tlu7m4f2kkh2xqd.onion/lredai/lred-share/login.php"
+      style="text-decoration: none;">
+      <button class="btn"> LRED SHARE</button>
+    </a>
+
+    <a href="http://jpytg6s7dfldx24fhermacujqae65ar47ia3yn447tlu7m4f2kkh2xqd.onion/anonymous_comment_system/lredhscomm.html"
+      style="text-decoration: none;">
+      <button class="btn"> LRED 社区</button>
+    </a>
+    <br><br><br><br>
+
+    <div class="lred-audio-player">
+      <div class="lred-audio-controls">
+        <button class="lred-audio-play-btn">▶</button>
+      </div>
+      <input type="range" class="lred-audio-seek-bar" value="0" step="0.1">
+      <audio id="audio"
+        src="http://jpytg6s7dfldx24fhermacujqae65ar47ia3yn447tlu7m4f2kkh2xqd.onion/lredai/audio01.m4a"></audio>
+    </div>error audio onion url
+
+
+
+  </center>
+
+  <script>
+    const audio = document.getElementById("audio");
+    const playBtn = document.querySelector(".lred-audio-play-btn");
+    const seekBar = document.querySelector(".lred-audio-seek-bar");
+
+    playBtn.addEventListener("click", () => {
+      if (audio.paused) {
+        audio.play();
+        playBtn.textContent = "⏸ ";
+      } else {
+        audio.pause();
+        playBtn.textContent = "▶ ";
+      }
+    });
+
+    audio.addEventListener("timeupdate", () => {
+      seekBar.value = audio.currentTime;
+      seekBar.max = audio.duration;
+    });
+
+    seekBar.addEventListener("input", () => {
+      audio.currentTime = seekBar.value;
+    });
+  </script>
+
+  <footer>
+    © 2025 HS - L.Red
+  </footer>
+</body>
+
+</html>
